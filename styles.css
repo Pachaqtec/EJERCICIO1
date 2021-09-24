@@ -1,0 +1,29 @@
+
+#primero > p > a{
+    color: orange;
+}
+#primero > p:nth-child(2) a{
+    color: red;
+}
+
+#primero p{
+    color: blue;
+}
+
+#primero > p:nth-child(2) em{
+    background-color: rgba(245, 245, 127, 0.836);
+}
+
+.especial{
+    background-color: black;
+    color: yellow;
+} 
+#segundo > padding:first-child span:nth-child(1){
+    font-weight: 600    ;
+}
+#segundo > p > span{
+    font-weight: bold;
+}
+#segundo > p > a{
+    color: red;
+}
